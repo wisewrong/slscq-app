@@ -1,0 +1,116 @@
+a {
+  color: cornflowerblue;
+}
+body {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  padding: 1em 0 0.5em;
+}
+#post {
+  padding: 20px 0;
+}
+#post p {
+  text-indent: 2em;
+}
+.ctrl-box {
+  padding: 40px 0 50px;
+  text-align: center;
+}
+.ctrl-box #themeInputEl {
+  display: block;
+  font-size: 2em;
+  line-height: 2em;
+  padding: 0 0.5em;
+  text-align: center;
+  border: 2px solid #aaa;
+  outline: none;
+  border-radius: 2px;
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+}
+.ctrl-box #themeInputEl:focus {
+  border-color: cornflowerblue;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.num-box {
+  padding: 10px;
+}
+.num-box #numEl {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 6em;
+}
+.num-box #numEl:before {
+  content: '字数 ';
+  opacity: 0.5;
+}
+.num-box #numInputEl {
+  display: inline-block;
+  vertical-align: top;
+  margin: 3px 0;
+  width: 100px;
+}
+
+.button {
+  font-size: 1.8em;
+  height: 2em;
+  width: 8em;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.button + .button {
+  margin-left: 12px;
+}
+
+#submit {
+  background: cornflowerblue;
+  color: #fff;
+}
+
+#submit:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit:hover,
+#submit:active {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#download:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+#download:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  padding: 150px 0 80px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 14px 0;
+}
+footer small {
+  color: #333;
+}
+footer .hr {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.5em;
+  height: 1em;
+  border-right: 1px solid #ddd;
+}
